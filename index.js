@@ -1,7 +1,3 @@
-// 1.) Declaring variables for different slides
-// note: make sure to use backticks -> ``, not quotes -> '' 
-// when making your own slides, they are don't work the same way
-
 
 var slide1 = `
     <div>
@@ -49,8 +45,6 @@ var slide3 = `
     </div>
 `
 
-// 2.) Declaring function to display each slide
-
 function displaySlide1() {
     document.getElementById('slides').innerHTML = slide1
 }
@@ -63,8 +57,6 @@ function displaySlide3() {
     document.getElementById('slides').innerHTML = slide3
 }
 
-// 3.) Adding the event listeners to the buttons and
-// Adding the displaySlide functions as event handlers
 
 document.getElementById('reason1').addEventListener('click', displaySlide1)
 document.getElementById('reason2').addEventListener('click', displaySlide2)
